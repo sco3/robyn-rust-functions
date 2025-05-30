@@ -1,0 +1,1 @@
+uv run python -m robyn --create-rust-file fib
