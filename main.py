@@ -1,4 +1,4 @@
-#!/usr/bin/env -S uv run 
+#!/usr/bin/env -S uv run python -m robyn main.py --dev --compile-rust-path .
 import time
 from robyn import Robyn
 

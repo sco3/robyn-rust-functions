@@ -4,7 +4,7 @@ use pyo3::prelude::*;
 
 #[pyfunction]
 fn say_hello() -> String{
-    return "Hello from hello_world, implemented in Rust!".to_string();
+    return "Hello, Rust!".to_string();
 }
 
 // Uncomment the below to implement custom pyo3 binding code. Otherwise, 
